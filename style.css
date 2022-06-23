@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
-
+    box-sizing: border-box;
 }
 
 body{
@@ -29,4 +31,51 @@ li{
     padding: 10px;
     margin: 15px;
     margin-right: 20px;
+}
+
+form{
+    width: 450px;
+    height: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 10px;
+}
+
+input{
+    width: 75%;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+form button{
+    background-color: green;
+    padding: 15px 30px;
+    border: none;
+    margin-top: 5px;
+    color: #fff;
+    font-size: 15px;
+    
+}
+
+.form-div{
+    position: relative;
+    top: 20%;
+}
+
+input:focus{
+    outline: none;
+    font-size: 17px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #eee;
 }

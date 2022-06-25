@@ -10,7 +10,7 @@
 <body>
 <?php require_once "header.php" ?>
 <form action = "" method="post">
-    <h3> Signup </h3>
+    <h3> Login </h3>
     <div class = "form-div">
      <input type="email" placeholder = "email" name = "email"> <br>
      <input type="password" placeholder = "password" name = "password"> <br>

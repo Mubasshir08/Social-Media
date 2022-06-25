@@ -74,6 +74,73 @@ input:focus{
     font-size: 17px;
 }
 
+textarea{
+    width: 35%;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    resize: none;
+}
+
+.user_profile{
+    background-color: rgb(187, 187, 187);
+    width: 75%;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+}
+
+.user_info{
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.user_bio{
+    display: inline-block;
+    /* border-left: 1px red solid; */
+    width: 45%;
+    /* background-color: aqua; */
+    text-align: left;
+    position: relative;
+    top: -25px;
+
+}
+
+.user_img{
+    width: 45%;
+    display: inline-block;
+    /* background-color: red; */
+}
+
+.user_img img{
+    border-radius: 50%;
+    width: 20%;
+}
+
+.post_area{
+    text-align: center;
+}
+
+.post_area button{
+    padding: 15px 30px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.post_area button:hover{
+    background-color: green;
+    color: #fff;
+}
+
+textarea:focus{
+    outline: none;
+}
+
 footer{
     padding: 20px;
     text-align: center;
